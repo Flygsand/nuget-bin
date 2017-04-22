@@ -1,0 +1,20 @@
+{
+	"name": "nuget-bin",
+	"version": "4.0.0",
+	"description": "NuGet binary wrapper",
+	"repository": "https://github.com/protomouse/nuget-bin.git",
+	"author": "protomouse",
+	"license": "MIT",
+	"keywords": [
+		"nuget"
+	],
+	"scripts": {
+		"postinstall": "node install.js"
+	},
+	"bin": {
+		"nuget": "nuget.js"
+	},
+	"dependencies": {
+		"request": "^2.81.0"
+	}
+}
